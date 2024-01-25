@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 60px; /* Height of navbar */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+section {
+    margin: 20px 0;
+    padding-top: 60px; /* Height of navbar */
+    margin-top: -60px; /* Height of navbar */
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
